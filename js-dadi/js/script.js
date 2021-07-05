@@ -6,9 +6,9 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto e stampare il ri
 var resultPlaceholder = document.getElementById("game-result-message");
 
 //Pick two random numbers (one for each player) between 1 and 6
-var player1Number = Math.round(Math.random() * 5) + 1;
+var player1Number = Math.floor(Math.random() * 6) + 1;
 console.log("G1: " + player1Number);
-var player2Number = Math.round(Math.random() * 5) + 1;
+var player2Number = Math.floor(Math.random() * 6) + 1;
 console.log("G2: " + player2Number);
 
 //Determine the result of the dice game (the bigger number wins)
